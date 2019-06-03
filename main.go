@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hi")
+	cards := newDeck()
+	fmt.Println(cards)
 }
